@@ -9,7 +9,7 @@ const background = {
 
 const section2title = "About Me"
 const about = {
-    paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris nunc congue nisi vitae suscipit tellus mauris a diam. Orci phasellus egestas tellus rutrum tellus pellentesque eu. Dapibus ultrices in iaculis nunc. Pretium nibh ipsum consequat nisl vel. Consequat ac felis donec et odio. Orci nulla pellentesque dignissim enim sit amet. Scelerisque eu ultrices vitae auctor eu augue ut lectus arcu."
+    paragraph: "A sales driven SaaS professional with current knowledge of Enterprise sales and needs, analytics/application markets and the current innovations underway across different channels and networks. Adaptable and experienced with selling a wide variety of products with a proven track record of success across the full sale cycle."
 }
 
 const skillsBar = [
@@ -32,13 +32,11 @@ const skillsBar = [
         name: "Mongoose",
         value: 70
     },{
-        name: "Adobe XD",
-        value: 75
+        name: "Adobe",
+        value: 100
     },
 ]
-// Edit your projects, its name, your skills used to make it, and the url. 
-// You can omit freely anything if you dont have it
-// To Add a Project, copy any one below and paste it after the last comma and increment the id's project number
+
 const section3Title = "Past Projects"
 const projects = [
     {
@@ -88,7 +86,7 @@ const miscellaneous = [
 
 const section5Title = "Get in Touch"
 const contact = {
-    pitch: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris nunc congue nisi vitae.",
+    pitch: "Feel free to reach out to discuss my work or if you are interested in connecting",
     copyright: "Garrett Steed",
     contactUrl: ''
 }
@@ -97,7 +95,7 @@ const social = {
     github: 'https://github.com/gsteed1677',
     facebook: 'https://facebook.com',
     linkedin: 'https://www.linkedin.com/in/garrett-steed/',
-    resume: 'https://novoresume.com/'
+    resume: 'https://drive.google.com/file/d/12XkmCKPf7QCrGUpjS-hUPO0FwrlWfBY8/view?ths=true'
 }
 
 export { header, background, about, skillsBar, projects, miscellaneous, contact, social, section2title, section3Title, section4Title, section5Title }
