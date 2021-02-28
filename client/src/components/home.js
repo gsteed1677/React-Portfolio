@@ -1,6 +1,5 @@
 import React from "react";
 import me from "../assets/linkedin-photo.png";
-import resume from "../assets/Garrett Steed Resume 2020.pdf";
 
 function Home() {
   return (
@@ -16,26 +15,12 @@ function Home() {
         </p>
         <div className="column is-1"></div>
       </div>
-
       <div className="column is-full has-text-centered">
         <img src={me} alt="Garrett"></img>
         <br></br>
-        <a href="https://github.com/gsteed1677" target="blank">
-          Github
-        </a>
-        <br />
-        <a href={resume} target="blank">
-          Resume
-        </a>
-        <br />
-        <a
-          href="https://www.linkedin.com/in/garrett-steed/"
-          target="blank"
-        >
-          LinkedIn
-        </a>
-      </div>
     </div>
+    </div>
+    
   );
 }
 
