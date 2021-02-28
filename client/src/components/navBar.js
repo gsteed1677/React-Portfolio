@@ -1,8 +1,9 @@
 import React from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
-function Nav() {
+function Navbar() {
   return (
      <nav classname="navbar navbar-expand-lg navbar-light">
         <a classname="navbar-brand" href="index.html">Garrett Steed</a>
@@ -12,16 +13,16 @@ function Nav() {
         <div classname="collapse navbar-collapse" id="navbarSupportedContent">
           <ul classname="navbar-nav mr-auto">
             <li classname="nav-item active">
-              <a classname="nav-link" href="contact.html">Contact <span classname="sr-only">(current)</span></a>
+              <a classname="nav-link" href="/contact">Contact <span classname="sr-only">(current)</span></a>
             </li>
             <li classname="nav-item">
-              <a classname="nav-link" href="portfolio.html">Portfolio</a>
+              <a classname="nav-link" href="/portfolio">Portfolio</a>
             </li>
             <li classname="nav-item">
-              <a classname="nav-link" href="assets/Garrett Steed Resume 2020.pdf">Resume</a>
+              <a classname="nav-link" href="/resume">Resume</a>
             </li>
             <li classname="nav-item">
-              <a classname="nav-link" href="index.html">Home</a>
+              <a classname="nav-link" href="/">Home</a>
             </li>
           </ul>
         </div>
@@ -29,4 +30,4 @@ function Nav() {
   );
   }
 
-export default Nav;
+export default Navbar;
