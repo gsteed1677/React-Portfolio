@@ -1,10 +1,10 @@
 import React from "react";
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
 function Navbar() {
   return (
+    <div>
      <nav classname="navbar navbar-expand-lg navbar-light">
         <a classname="navbar-brand" href="/">Garrett Steed</a>
         <button classname="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,6 +27,7 @@ function Navbar() {
           </ul>
         </div>
       </nav>
+      </div>
   );
   }
 

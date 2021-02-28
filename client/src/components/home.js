@@ -4,22 +4,37 @@ import me from "../assets/linkedin-photo.png";
 function Home() {
   return (
     <div>
-      <div className="columns">
-        <div className="column is-1"></div>
-        <p className="column">
-          A sales driven SaaS professional with current knowledge of Enterprise sales and needs, analytics/application markets and the current innovations underway across different channels and networks. Adaptable and experienced with selling a wide variety of products with a proven track record of success across the full sale cycle. Consistently meets and exceeds corporate sales goals, while also maintaining customer relations, generating leads, closing deals, and utilizing SFDC skills. 
-          <br />
-          <br />
-          I am currently in the Denver University Full Stack bootcamp, but will be finished by March 2021. <br />
-          <br />
-        </p>
-        <div className="column is-1"></div>
+    <div className="row">
+    <div className="col-md-1" />&gt;
+    <div className="col-md-10">
+      <div className="card">
+        <h4>About Me</h4>
       </div>
-      <div className="column is-full has-text-centered">
-        <img src={me} alt="Garrett"></img>
-        <br></br>
-    </div>
-    </div>
+      <section>
+        {/* need to figure out how to space out the picture from the text */}
+        <img src={me} alt="Garrett" width="300px;" height="330px" align="left"
+          className="Garrett" />
+        {/* updated about me to add personalized details */}
+        <p>
+          Hi - Nice to meet ya! My name is Garrett Steed and I would invite you to read on to learn more about who I am.
+        </p>
+        <p>
+          My current position entails managing the billing and execution of various multi-tiered projects at one time,
+          while maintaining open lines of communication with my marketing counterparts as Adobe. I am responsible for
+          strategically organizing upcoming campaigns, with a focus on building and maintaining the loyalty of both our
+          end customers and partners. Over the past two years, I have contributed to a successful sales and marketing
+          arm and would cherish th ability to build on my experience with my new coding skills. </p>
+        <p>
+          I am a problem-solver, a self-motivated and a team player. Client satisfaction has driven me to successfully
+          contribute
+          to the business development of both the After-Sales and Sales accounts. I know how important business
+          development and relationship building is to every successful organization.
+        </p>
+      </section>
+      </div>
+      </div>
+   
+  </div>
     
   );
 }
