@@ -1,5 +1,6 @@
 {
   "name": "mern",
+  "homepage": "http://gsteed1677.github.io/react-portfolio",
   "version": "1.0.0",
   "description": "Mern Demo",
   "main": "server.js",
@@ -10,7 +11,9 @@
     "client": "cd client && npm run start",
     "install": "cd client && npm install",
     "build": "cd client && npm run build",
-    "heroku-postbuild": "npm run build"
+    "heroku-postbuild": "npm run build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "author": "",
   "license": "ISC",
@@ -23,6 +26,7 @@
     "bootstrap-react": "^0.5.0-alpha.14",
     "express": "^4.16.3",
     "if-env": "^1.0.4",
-    "react-router-dom": "^5.2.0"
+    "react-router-dom": "^5.2.0",
+    "gh-pages": "^3.1.0"
   }
 }

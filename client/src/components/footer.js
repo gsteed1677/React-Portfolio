@@ -4,7 +4,7 @@ import resume from "../assets/Garrett Steed Resume 2020.pdf";
 
 function Footer() {
     return (
-        <div>
+        <footer>
         <a href="https://github.com/gsteed1677" target="blank">
           Github
         </a>
@@ -19,7 +19,7 @@ function Footer() {
         >
           LinkedIn
         </a>
-      </div>
+      </footer>
     )
 }
 

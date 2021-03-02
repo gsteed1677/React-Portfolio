@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a2b7b0b6.chunk.css",
+    "main.js": "/static/js/main.49df5244.chunk.js",
+    "main.js.map": "/static/js/main.49df5244.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.992eac29.js",
+    "runtime-main.js.map": "/static/js/runtime-main.992eac29.js.map",
+    "static/css/2.7b2930de.chunk.css": "/static/css/2.7b2930de.chunk.css",
+    "static/js/2.81d0a255.chunk.js": "/static/js/2.81d0a255.chunk.js",
+    "static/js/2.81d0a255.chunk.js.map": "/static/js/2.81d0a255.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.fc4a6cc4ada20875281fb286c0a6256b.js": "/precache-manifest.fc4a6cc4ada20875281fb286c0a6256b.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.7b2930de.chunk.css.map": "/static/css/2.7b2930de.chunk.css.map",
+    "static/css/main.a2b7b0b6.chunk.css.map": "/static/css/main.a2b7b0b6.chunk.css.map",
+    "static/js/2.81d0a255.chunk.js.LICENSE.txt": "/static/js/2.81d0a255.chunk.js.LICENSE.txt",
+    "static/media/Garrett Steed Resume 2020.pdf": "/static/media/Garrett Steed Resume 2020.2dd70f2f.pdf",
+    "static/media/boardgame.PNG": "/static/media/boardgame.4f812ea1.PNG",
+    "static/media/linkedin-photo.png": "/static/media/linkedin-photo.f6be533b.png",
+    "static/media/pwa.PNG": "/static/media/pwa.29ad6e99.PNG",
+    "static/media/workday.PNG": "/static/media/workday.769929f5.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.992eac29.js",
+    "static/css/2.7b2930de.chunk.css",
+    "static/js/2.81d0a255.chunk.js",
+    "static/css/main.a2b7b0b6.chunk.css",
+    "static/js/main.49df5244.chunk.js"
+  ]
+}
